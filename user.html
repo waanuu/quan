@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMSREAD</title>
+    
+</head>
+<link rel="stylesheet" href="/html/model/user.css">
+
+ <!-- font awesome icon -->
+ <link rel="stylesheet" href="/html/fontawesome-free-6.5.1-web/css/all.min.css">
+<body>
+        <div class="nav-responsive">
+            <div class="LOGO">
+                <img width="85%" style="margin: 10px;" src="/html/img/icon.png" alt="image"  id="logo">
+            </div>
+            <div class="nav-search">
+                <div class="seach">
+                    <p id="TIMKIEM"><a href="/html/view/page1.html">TÌM KIẾM</a></p>
+               </div>
+               <div class="TK">
+                   <input type="text" id="TIMKIEM-1x" placeholder="   Tìm Kiếm theo tên tác phẩm,tác giả...">
+               </div>
+            </div>
+            <div class="access">
+                <a href="#" id="cart"><i class="fa-solid fa-cart-shopping"></i>Giỏ Hàng</a>
+                <a href="#" id="cart"><i class="fa-solid fa-user"></i> Tài Khoản</a>
+            </div>
+            <div class="table-1">
+                <div class="muc">
+                    <i class="fa-sharp fa-solid fa-bars" style="color: #fbfcfc; margin-top: 15px;"></i><p>Tất cả các mục</p>
+                </div>
+                <div class="tieude">
+                    <a href="/html/view/user.html" ><button class="TĐ">Trang chủ </button></a>
+                    <a href="/html/view/lib.html"><button class="TĐ">Thư viện</button></a>
+                    <a href="/html/view/Hotro.html"><button class="TĐ">Hỗ trợ khách hàng</button></a>
+                    <a href="/html/view/news.html"><button class="TĐ">Tin tức</button></a>
+                    <a href="/html/view/rank.html"><button class="TĐ">Bảng xếp hạng</button></a>
+                </div>
+            </div>     
+        </div>      
+<!-- main section -->
+<main id="main" >
+    <!-- categories section -->
+    <div class="home">
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li>Sách Khoa Học</li><hr>
+                    <li>Sách Kinh Tế</li><hr>
+                    <li>Sách Tin Học</li><hr>
+                    <li>Sách Thiếu Nhi</li><hr>
+                    <li>Sách Kỹ Năng</li><hr>
+                    <li>Sách Đời Sống</li><hr>
+                    <li>Sách Ngoại Ngữ</li><hr>
+                    <li>Sách Chuyên Ngành</li><hr>
+                    <li>Truyện Tranh</li><hr>
+                    <li>Sách Chữ</li><hr>
+                </ul>
+            </nav>
+        </div>
+        <div class="home0">
+            <img id="imga" onclick="changeimage()" src="/html/img/home4.jpg" alt="">
+        </div>
+        <!--<img id="imga" onclick="changeimage()" src="img/home4.jpg" alt="">-->
+    </div>    
+    </div>
+<section class="categories">
+    <div class="title-container">
+        <h1 id="title">Sách Thịnh Hành</h1>
+    </div>
+    <div class="card">
+        <div class="item-container" id="0">
+            <div class="card-item">
+                <img src="/html/img/Thịnh Hành/anh1.jpg" alt="img" id="card-img">
+                <p id="item-name">Sách - The True Ielts Guide</p>
+            </div>
+            <i class="fa fa-shopping-cart" id="add-to-cart"></i>
+            <h3 id="item-price">Giá Mua: 138.000 VND</h3>             
+        </div>
+
+        <div class="item-container" id="1">
+            <div class="card-item" >
+                <img src="/html/img/Thịnh Hành/a5.png" alt="img" id="card-img">
+                <p id="item-name">Được Nuôi Bởi Mẹ, Được Dạy Bởi Cha</p>              
+            </div>
+            <i class="fa fa-shopping-cart" id="add-to-cart"></i>
+            <h3 id="item-price">Giá Mua:115.000 VND</h3>
+        </div>
+
+        <div class="item-container" id="2">
+            <div class="card-item" >
+                <img src="/html/img/Thịnh Hành/anh3.jpg" alt="img" id="card-img">
+                <p id="item-name">Sách - Sương Khói Quê Nhà</p>
+            </div>
+            <i class="fa fa-shopping-cart" id="add-to-cart"></i>
+            <h3 id="item-price">Giá Mua: 76.000 VND</h3>              
+        </div>
+
+        <div class="item-container" id="3">
+            <div class="card-item">
+                <img src="/html/img/Thịnh Hành/anh4.jpg" alt="img" id="card-img">
+                <p id="item-name">Sách - Harry Potter Và Hòn Đá Phù Thủy</p>
+            </div>
+            <i class="fa fa-shopping-cart" id="add-to-cart"></i>
+            <h3 id="item-price">Giá Mua: 120.000 VND</h3>          
+        </div>
+    </div>
+</section>
+<!-- lop 3 -->
+<section class="categories">
+    <div class="title-container">
+        <h1 id="title">Sách Khoa Học</h1>
+    </div>
+    <div class="card">
+        <div class="item-container" id="4">
+            <div class="card-item">
+                <img src="/html/img/Sách Khoa Học/anh1.jpg" alt="img" id="card-img">
+                <p id="item-name">Sách - Khoa Học Khám Phá - Stephen Hawking</p>
+            </div>
+            <i class="fa fa-shopping-cart" id="add-to-cart"></i>
+            <h3 id="item-price">Giá Mua: 113.000 VND</h3>             
+        </div>
+
+        <div class="item-container" id="5">
+            <div class="card-item" >
+                <img src="/html/img/Thịnh Hành/anh2.jpg" alt="img" id="card-img">
+                <p id="item-name">Sách sổ tay khoa học máy tính và mật mã Á Châu Books</p>              
+            </div>
+            <i class="fa fa-shopping-cart" id="add-to-cart"></i>
+            <h3 id="item-price">Giá Mua: 321.000 VND</h3>
+        </div>
+
+        <div class="item-container" id="6">
+            <div class="card-item" >
+                <img src="/html/img/Sách Khoa Học/anh3.jpg" alt="img" id="card-img">
+                <p id="item-name">Khái Lược Những Tư Tưởng Lớn (Tái Bản 2023)</p>
+            </div>
+            <i class="fa fa-shopping-cart" id="add-to-cart"></i>
+            <h3 id="item-price">Giá Mua: 337.000 VND</h3>                
+        </div>
+
+        <div class="item-container" id="7">
+            <div class="card-item">
+                <img src="/html/img/Sách Khoa Học/anh4.jpg" alt="img" id="card-img">
+                <p id="item-name">SÁCH - Bách khoa thư về khoa học- Trái Đất và vũ trụ</p>
+            </div>
+            <i class="fa fa-shopping-cart" id="add-to-cart"></i>
+            <h3 id="item-price">Giá Mua: 54.000 VND</h3>        
+        </div>
+    </div>
+</section>
+<!-- end of lop 3 -->
+
+<!-- lop 4 -->
+<section class="categories">
+    <div class="title-container">
+        <h1 id="title">Sách Ngôn Ngữ</h1>
+    </div>
+    <div class="card">
+        <div class="item-container" id="8">
+            <div class="card-item">
+                <img src="/html/img/Sách Tiếng Anhh/anh1.jpg" alt="img" id="card-img">
+                <p id="item-name">Luyện kỹ năng đọc hiểu tiếng Anh </p>
+            </div>
+            <i class="fa fa-shopping-cart" id="add-to-cart"></i>
+            <h3 id="item-price">Giá Mua: 24.000 VND</h3>              
+        </div>
+
+        <div class="item-container" id="9">
+            <div class="card-item" >
+                <img src="/html/img/Sách Tiếng Anhh/anh2.jpg" alt="img" id="card-img">
+                <p id="item-name">Luyện dịch song ngữ Hàn Việt qua 3000 tiêu đề báo chí</p>              
+            </div>
+            <i class="fa fa-shopping-cart" id="add-to-cart"></i>
+            <h3 id="item-price">Giá Mua: 104.000 VND</h3>
+        </div>
+
+        <div class="item-container" id="10">
+            <div class="card-item" >
+                <img src="/html/img/Sách Tiếng Anhh/anh3.jpg" alt="img" id="card-img">
+                <p id="item-name">Tự học tiếng Đức cho người mới bắt đầu</p>
+            </div>
+            <i class="fa fa-shopping-cart" id="add-to-cart"></i>
+            <h3 id="item-price">Giá Mua: 117.000 VND</h3>              
+        </div>
+
+        <div class="item-container" id="11">
+            <div class="card-item">
+                <img src="/html/img/Sách Tiếng Anhh/anh4.jpg" alt="img" id="card-img">
+                <p id="item-name">Sách tiếng Nhật-Kanji Look and learn</p>
+            </div>
+            <i class="fa fa-shopping-cart" id="add-to-cart"></i>
+            <h3 id="item-price">Giá Mua: 160.000 VND</h3>          
+        </div>
+    </div>
+</section>
+<!-- end of lop3  -->
+
+<!-- lop 4 -->
+<section class="categories">
+    <div class="title-container">
+        <h1 id="title">Truyện Tranh</h1>
+    </div>
+    <div class="card">
+        <div class="item-container" id="12">
+            <div class="card-item">
+                <img src="/html/img/Truyện/anh1.jpg" alt="img" id="card-img">
+                <p id="item-name">Doraemon Movie Story</p>
+            </div>
+            <i class="fa fa-shopping-cart" id="add-to-cart"></i>
+            <h3 id="item-price">Giá Mua: 32.000 VND</h3> 
+        </div>
+
+        <div class="item-container" id="13">
+            <div class="card-item" >
+                <img src="/html/img/Truyện/anh2.jpg" alt="img" id="card-img">
+                <p id="item-name">Dragon Ball - 7 Viên Ngọc Rồng</p>              
+            </div>
+            <i class="fa fa-shopping-cart" id="add-to-cart"></i>
+            <h3 id="item-price">Giá mua: 23.000 VND</h3>
+        </div>
+
+        <div class="item-container" id="14">
+            <div class="card-item" >
+                <img src="/html/img/Truyện/anh3.jpg" alt="img" id="card-img">
+                <p id="item-name">One Piece</p>
+            </div>
+            <i class="fa fa-shopping-cart" id="add-to-cart"></i>
+            <h3 id="item-price">Giá mua: 24.000 VND</h3>       
+        </div>
+
+        <div class="item-container" id="15">
+            <div class="card-item">
+                <img src="/html/img/Truyện/anh4.jpg" alt="img" id="card-img">
+                <p id="item-name">Your Name </p>
+            </div>
+            <i class="fa fa-shopping-cart" id="add-to-cart"></i>
+            <h3 id="item-price">Giá Mua: 72.000 VND</h3>      
+        </div>
+    </div>
+</section>
+<!-- end of lop 5 -->
+
+<!-- Footer section -->
+<footer>
+    <div class="footer">
+        <div class="support">
+            <ul>
+                <h3><strong>VỀ CHÚNG TÔI</strong></h3>
+                <li><a href="#" id="about">Giới Thiệu</a></li>
+                <li><a href="#" id="Refund-policy">Qui định sử dụng</a></li>
+                <li><a href="#" id="policy">Chính sách bảo mật</a></li>
+                <li><a href="#" id="return-product">Chính sách đổi trả</a></li>
+            </ul>
+            <div class="app">
+                <h3><strong>TẢI ỨNG DỤNG TRÊN ĐIỆN THOẠI</strong></h3>
+                <img src="/html/img/dl.png" alt="">
+            </div>
+        </div>
+        
+
+        <div class="social-media"> 
+            <div class="TT">
+                <h3><strong>CHẤP NHẬN THANH TOÁN</strong></h3>
+                <img width="100%" src="/html/img/pay.png" alt="">
+            </div>
+            <div class="ĐTVC">
+                <h3><strong>ĐỐI TÁC VẬN CHUYỂN</strong></h3>
+                <img width="100%" src="/html/img/vc.png" alt="">
+            </div>
+            <div class="ĐTBH">
+                <h3><strong>ĐỐI TÁC BÁN HÀNG</strong></h3>
+                <img width="100%" style="margin-top: 27px;" src="/html/img/doitac.png" alt="">
+            </div>
+
+        </div>
+    </div>
+    <div class="footer-1">
+        <div class="CN"><p id="CN">Cảm ơn các bạn đã đến với website của chúng tôi</p></div>
+        <div class="imgaa"> <img width="10%" src="/html/img/icon.png" alt="" >
+        </div>
+        <div class="web"><p id="web">WEBSITE MUA SÁCH & TRUYỆN AMSREAD</p></div>
+    </div>
+</footer>
+
+<!-- end of footer section -->
+
+</main>
+<!-- end of main -->
+
+
+
+<div id="details-page" >
+    <div class="details" >
+        <div class="items-detail">
+            <div class="image-container">
+                <img src="/html/img/Thịnh Hành/anh1.jpg" alt="" id="details-img">
+            </div>
+            <div class="details-card">
+                <h2 id="detail-title">Sách - The True Ielts Guide</h2>
+                <h4 id="detail-price">Giá Mua: </h4>
+                <h4 id="detail-borrow">Giá Mượn: </h4>
+                
+                <p id="delievery"><strong>Giao Hàng : </strong> Từ 3 - 4 Ngày</p>
+                <p id="spec"><strong>Mô tả :</strong></p>
+                <button id="carts">Mua </button>
+                <button id="buy">Quay Lại</button>
+                <br>
+                <br>
+                <div class="container">
+                    <div class="post">
+                      <div class="text">Cảm ơn bạn đã đánh giá!</div>
+                      <div class="edit">Chỉnh Sửa</div>
+                    </div>
+                    <div class="star-widget">
+                      <input type="radio" name="rate" id="rate-5">
+                      <label for="rate-5" class="fas fa-star"></label>
+                      <input type="radio" name="rate" id="rate-4">
+                      <label for="rate-4" class="fas fa-star"></label>
+                      <input type="radio" name="rate" id="rate-3">
+                      <label for="rate-3" class="fas fa-star"></label>
+                      <input type="radio" name="rate" id="rate-2">
+                      <label for="rate-2" class="fas fa-star"></label>
+                      <input type="radio" name="rate" id="rate-1">
+                      <label for="rate-1" class="fas fa-star"></label>
+                      <form action="#">
+                        <header></header>
+                        <div class="textarea">
+                          <textarea cols="30" placeholder="Đánh giá cuốn sách..."></textarea>
+                        </div>
+                        <div class="n">
+                          <button type="submit">Đăng</button>
+                        </div>
+                      </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- cuoi trang chi tiet-->
+
+
+<!-- phan danh sach gio hang -->
+<div id="cart-container">
+    <p id="cart-title">GIỎ HÀNG CỦA BẠN</p id="cart-title">
+    <div id="empty-cart">
+        <h1>GIỎ HÀNG TRỐNG! </h1>
+    </div>
+
+    <div id="cart-with-items">
+        <div class="cart-column">
+            <h3>Sản Phẩm</h3>
+            <h3>Tên Sản Phẩm</h3>
+            <h3>Tổng Tiền </h3>
+            <h3>Số Lượng</h3>
+            <h3>Xóa</h3>
+        </div>
+        <div id="item-body">
+        </div>
+        <div id="total">
+            <h3 id="total-items"></h3>
+            <h2 id="total-amount"></h2>
+            <h3 id="you-saved"></h3>
+            <div class="tt">
+                <a href="/html/view/money.html">Thanh Toán</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="/html/control/user.js"></script>
+</body>
+</html>
